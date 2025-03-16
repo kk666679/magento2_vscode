@@ -1,0 +1,15 @@
+{
+    "name": "your-vendor/ecom",
+    "description": "multi",
+    "type": "project",
+    "license": "OSL-3.0", // Add your license here
+    "require": {
+        "php": "~7.4.0|~8.0.0|~8.1.0",
+        "magento/product-community-edition": "2.4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourProject\\": "app/code/YourProject/"
+        }
+    }
+}
